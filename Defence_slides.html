@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Defence_slides.knit</title>
+    <meta charset="utf-8" />
+    <script src="libs/header-attrs-2.21/header-attrs.js"></script>
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle, inverse
+background-image: url("Figures/Background_ch2.png")
+background-size: cover
+background-color: #b33d3d
+
+&lt;style type="text/css"&gt;
+.pull-left {
+  float: left;
+  width: 44%;
+}
+.pull-right {
+  float: right;
+  width: 44%;
+}
+.pull-right ~ p {
+  clear: both;
+}
+
+
+.pull-left-wide {
+  float: left;
+  width: 66%;
+}
+.pull-right-wide {
+  float: right;
+  width: 66%;
+}
+.pull-right-wide ~ p {
+  clear: both;
+}
+
+.pull-left-narrow {
+  float: left;
+  width: 33%;
+}
+.pull-right-narrow {
+  float: right;
+  width: 33%;
+}
+.pull-right-narrow ~ p {
+  clear: both;
+}
+
+.small123 {
+  font-size: 0.80em;
+}
+
+.large123 {
+  font-size: 2em;
+}
+&lt;/style&gt;
+
+
+# Holy Cows and Spilt Milk:
+## A Firm Level Analysis of the Impact of Religiousity on Productivity
+
+### Christian Vedel, University of Southern Denmark 
+#### (Christian-vs@sam.sdu.dk; @ChristianVedel)
+
+### Coauthored with Jeanet Bentzen, Nina Boberg-Fazlic, Paul Sharp, Christian Volmar Skovsgaard
+
+???
+.large123[**---&gt; 19 &lt;----**] 
+
+---
+# Introduction
+
+.pull-left[
+- Danish industrialisation is also agricultural (Sharp &amp; Lampe, 2019)
+- Portrayed as a consequence of homogeneity and lack of conflict 
+- Contrast with Ireland 
+- But did conflict and religiosity play any role for Danish development?
+- **Can non-violent religious conflicts also have adverse effects?**
+
+
+- **Finding:** Religious conflict drove lower productivity
+]
+
+.pull-right[
+![CarlMoe](Figures/CarlMoe.jpg)
+Carl Moe, kb.dk
+]
+
+???
+.large123[**---&gt; 21 &lt;----**] 
+
+---
+# Imagine that chimney on a Sunday
+![Chimney](Figures/Soeholm_mejeri.png)
+
+???
+.large123[**---&gt; 22 &lt;----**] 
+
+---
+# Historical background 
+.pull-left[
+![MissionHouses](Figures/timeline_WP1.png)
+] 
+
+.pull-right[
+![Chimney](Figures/Soeholm_mejeri.png)
+]
+
+
+---
+# Data and identification
+.pull-left[
+**Data:**
+- Missionhouses: When and where 
+
+- Creamery statistics (Sharp et al, 2023) + location 
+  + 11685 observations on 964 creameries
+  + Milk, Butter, influence of IM and various controls
+
+
+]
+
+.pull-right[
+**Empirical strategy:** 
+- Milk butter ratio: How much milk does it take to produce a unit of butter?
+
+`$$MB_{it}= IM_{it}\beta_1+\mathbf{z}_{it}\gamma+FE+\varepsilon_{it}$$`
+`$$ln(Butter_{it})= ln(Milk_{it})\beta_1+IM_{it}\beta_2+...$$`
+]
+
+???
+.large123[**---&gt; 23 &lt;----**] 
+What about a bad harvest?
+
+---
+# IM influence in 1890
+&lt;img src="Figures/Missionhouses1890.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+???
+.large123[**---&gt; 24 &lt;----**]
+
+---
+# IM influence in 1920
+&lt;img src="Figures/Missionhouses.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+???
+.large123[**---&gt; 24 &lt;----**]
+
+---
+# Results OLS
+.pull-right-narrow[
+**Interpretation**
+- Robust negative association between IM and productivity 
+- Large and meaningful effect size
+
+- **Effect**: ~ -25000 (2010 USD Equiv)
+]
+
+.pull-left-wide[
+&lt;img src="Figures/OLS_WP1.png" width="90%" style="display: block; margin: auto;" /&gt;
+]
+
+???
+.large123[**---&gt; 24 &lt;----**]
+
+---
+# Results IV
+.pull-left-wide[
+&lt;img src="Figures/IV_WP1.png" width="90%" style="display: block; margin: auto auto auto 0;" /&gt;
+]
+
+.pull-right-narrow[
+**Instruments:**
+- Early IM would cause later IM (it is in the name) 
+1. Carl Moe was semi-randomly appointed to Harboører and Skanderup 
+2. IM in 1890, before our data 
+
+
+**Interpretation**
+- Robust negative association between IM and productivity 
+
+- **Effect**: ~ -40000 (2010 USD Equiv)
+]
+
+???
+.large123[**---&gt; 24 &lt;----**]
+
+---
+# Mechanisms
+.pull-left-narrow[
+**Results**
+- We *cannot* find that Sabbatical production had a negative impact on productivity 
+- We *can* demonstrate indicators of conflict were associated with IM
+]
+
+.pull-right-wide[
+&lt;img src="Figures/Long_meeting2.png" width="95%" style="display: block; margin: auto 0 auto auto;" /&gt;
+]
+
+???
+.large123[**---&gt; 25 &lt;----**]
+
+---
+# Conclusion 
+.pull-left[
+- Non violent religious conflict can have large negative effects on the economy (~25,000 2010 USD) 
+- Non-conflict take-off should be reinterpreted 
+]
+
+.pull-right[
+![CarlMoe](Figures/CarlMoe.jpg)
+Carl Moe, kb.dk
+]
+
+.footnote[
+**Email:** christian-vs@sam.sdu.dk  
+**Twitter:** @ChristianVedel  
+Feel free to contact me :-)
+]
+
+
+???
+.large123[**---&gt; 26 &lt;----**]
+
+---
+name: appendix2
+count: false
+class: center, middle, inverse
+background-color: #b33d3d
+# Chapter 2
+# Appendix
+
+.footnote[
+[Back](#apendicies)
+]
+
+---
+# Mechanisms
+.pull-left[
+![DAG](figures/dag_mechanism_wp1.png)
+1. We can test whether it is carried by Sabbatical production itself 
+2. We can test whether there are 'smoking guns' of conflict 
+]
+
+.pull-right[
+**Results**
+- We *cannot* find that Sabbatical production had a negative impact on productivity 
+- We *can* demonstrate indicators of conflict were associated with IM
+]
+
+---
+# Was Sabbatical production the mechanism behind negative effect of IM? 
+&lt;img src="Figures/Mechanism1_WP1.png" width="75%" style="display: block; margin: auto;" /&gt;
+
+---
+# Could conflict feasibly be the mechanism? 
+&lt;img src="Figures/Mechanism2_WP1.png" width="75%" style="display: block; margin: auto;" /&gt;
+
+---
+# Does sabbatical production matter? (1/4)
+.pull-left-wide[
+**MB ratio versus Sabbatical**
+![Sabbatical1](Figures/Table1_MB_alternative_WP1.png)
+]
+
+.pull-right-narrow[
+**Interpretation**
+- Places with Sabbatical creameries are less productive (1-2)
+- No effect at the hundred level (3-5) 
+- No effect at the creamery level (table 4, col. 3)
+- 123 Hundreds vary in Sabbatical status
+]
+
+---
+# Does sabbatical production matter? (2/4)
+.pull-right-wide[
+**Dividends versus Sabbatical**
+![Sabbatical1](Figures/Table1_Dividends_alternative_WP1.png)
+]
+
+.pull-left-narrow[
+**Interpretation**
+- Same result for dividends
+- 123 Hundreds vary in Sabbatical status
+]
+
+---
+# Does sabbatical production matter? (3/4)
+### Event plot MB ratio (Callaway &amp; Sant'Anna Estimator)
+![ES_MB](Figures/MB_ratio_event.png)
+.center[.small123[***Hundred level data***]]
+
+---
+# Does sabbatical production matter? (4/4)
+### Event plot MB ratio (Callaway &amp; Sant'Anna Estimator)
+![ES_Divid](Figures/Dividends_event.png)
+.center[.small123[***Hundred level data***]]
+
+---
+# Alternative measures of IM 
+.pull-left[
+**Being in parish with Mission house**
+![Alt1](Figures/Alt_IM_measure1.png)
+]
+
+.pull-right[
+**Number of Mission houses within 25km**
+![Alt2](Figures/Alt_IM_measure2.png)
+]
+
+**Interpretation** 
+- We can define the measure of IM influence in various ways. 
+- We get the same result or a more noisy result 
+- IV benefits from a continuous measure
+
+
+---
+# Testing instrument validity
+.pull-left-wide[
+&lt;img src="Figures/Moe_event.png" width="75%" style="display: block; margin: auto;" /&gt;
+]
+
+.pull-right-narrow[
+- Semi-random appointment of Carl Moe 
+- Legal turmoil after constituion §80/§66: *"The Constitution of the People's Church is regulated by law"* 
+- Defaulted to the King 
+- Carl Moe is consistently associated with more IM influence
+- Bartik Instrument assumptions (Goldsmith-Pinkham et al., 2020): 
+  + Original exposure is random *or* 
+  + Changes are random
+]
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
